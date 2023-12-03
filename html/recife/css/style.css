@@ -147,12 +147,14 @@ header nav ul {
     /* 51.024px */
     letter-spacing: -0.48px;
 }
-.s-fotos .titulo{
+
+.s-fotos .titulo {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
 }
+
 .s-fotos h2 {
     color: #331B3B;
     font-size: 4.8rem;
@@ -162,3 +164,40 @@ header nav ul {
     letter-spacing: -0.48px;
 }
 
+.s-artigo {
+    margin-left: 4rem;
+    margin-top: 8.9rem;
+    width: 134.2rem;
+    height: 55rem;
+    flex-shrink: 0;
+    color: rgba(51, 27, 59, 0.66);
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 168.3%;
+    letter-spacing: 0.34px;
+    text-align: justify;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    background: url(../imagens/back01.png) no-repeat;
+    height: 45.3rem;
+    gap: initial;
+    align-content: space-around;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+
+
+footer h1{
+    margin-left: 5rem;
+    margin-right: 35rem;
+    color: #0e3649;
+    font-size: 4.8rem;
+    font-style: normal;
+    font-weight: 700;
+}
