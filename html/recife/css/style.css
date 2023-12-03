@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialised;
+    font-family: 'Lato', sans-serif;
+
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+html {
+    font-size: 62.5%;
+    background-color: var(--fundo);
+    color: var(--marron);
+    padding: 25px 0px 882px 40px; 
+    
+}
+
+.container {
+    width: 100%;
+    max-width: 140rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+
+   
+}
+
+header{
+
+    
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 39.5rem;
+    color: #331B3B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.16px; 
+}
+
+.s-topo{
+    width: 57.rem;
+    height: 71.2rem;
+    background: url("../imagens/background.png") no-repeat ;
+    background-position: right;
+    background-size: 100%;
+    background-size: contain;
+    background-position: right;
+}
+
+
+.s-topo .image-text{
+    width: 100%;
+    height: 63.1rem;
+    background: url("../imagens/textorecife.png") no-repeat ;
+    background-position: right;
+}
+
+.s-topo .left{
+    padding-left: 5rem;
+    margin-top: 18.6rem;
+}
+.s-topo h1{
+    color: #331B3B;
+    font-size: 8.7rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 99.8%;
+    letter-spacing: -0.87px; 
+    
+}
