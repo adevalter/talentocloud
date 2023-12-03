@@ -29,10 +29,10 @@ button {
 
 html {
     font-size: 62.5%;
-    background-color: var(--fundo);
-    color: var(--marron);
-    padding: 25px 0px 882px 40px; 
-    
+    /*background-color: var(--fundo);*/
+    /*color: var(--marron);*/
+    padding: 25px 0px 882px 40px;
+
 }
 
 .container {
@@ -41,55 +41,98 @@ html {
     margin: 0 auto;
     padding: 0 1rem;
 
-   
+
 }
 
-header{
-
-    
-}
-
-header nav ul{
+header nav ul {
     display: flex;
     justify-content: space-around;
-    width: 100%;
     max-width: 39.5rem;
     color: #331B3B;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    letter-spacing: 0.16px; 
+    letter-spacing: 0.16px;
 }
 
-.s-topo{
-    width: 57.rem;
-    height: 71.2rem;
-    background: url("../imagens/background.png") no-repeat ;
+.s-topo {
+
+    display: flex;
+    height: 62.2rem;
+    align-items: flex-start;
+    background: url(../imagens/background.png) no-repeat;
     background-position: right;
-    background-size: 100%;
-    background-size: contain;
-    background-position: right;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15rem;
 }
 
-
-.s-topo .image-text{
+/*
+.s-topo .right {
+    width: 45.4rem;
+    display: flex;
     width: 100%;
-    height: 63.1rem;
-    background: url("../imagens/textorecife.png") no-repeat ;
-    background-position: right;
-}
+    align-items: flex-end;
+    justify-content: flex-end;
 
-.s-topo .left{
+}
+*/
+.s-topo .left {
     padding-left: 5rem;
     margin-top: 18.6rem;
+
 }
-.s-topo h1{
+
+.s-topo h1 {
+
     color: #331B3B;
     font-size: 8.7rem;
     font-style: normal;
     font-weight: 700;
     line-height: 99.8%;
-    letter-spacing: -0.87px; 
+    letter-spacing: -0.87px;
+
+}
+
+.s-topo h2 {
+    color: #331B3B;
+    font-size: 8.7rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 99.8%;
+    letter-spacing: -0.87px;
+}
+
+.s-topo .image-titulo {
+    margin-top: 4.4rem;
+    margin-left: 5.4rem;
+    width: 29.1rem;
+    height: 2rem;
+   
     
+
+}
+
+.s-topo p {
+
+    margin-top: 11.4rem;
+    width: 514px;
+    height: 167px;
+    flex-shrink: 0;
+    color: rgba(51, 27, 59, 0.66);
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 146.3%;
+    letter-spacing: 0.34px;
+    
+}
+
+.s-fotos{
+    display: flex;
+}
+
+.s-fotos ul li {
+    display: flex;
 }
